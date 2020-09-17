@@ -4,7 +4,7 @@
 
 ### Fastjson版本控制
 
-通过自定义类加载器从文件中加载fastjson的jar包， 便于调试exp时排查exp支持的fastjson版本。
+通过自定义类加载器从文件中加载fastjson的jar包， 便于调试exp时排查exp支持的fastjson版本。但是暂时不支持设置Feature和SerializerFeature。
 
 例如：
 使用
