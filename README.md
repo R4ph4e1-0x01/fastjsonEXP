@@ -1,5 +1,7 @@
 # Fastjson  exp 集合
 
+目前项目中的exp基本上都是基于jndi注入
+
 ### Fastjson版本控制
 
 通过自定义类加载器从文件中加载fastjson的jar包， 便于调试exp时排查exp支持的fastjson版本。
