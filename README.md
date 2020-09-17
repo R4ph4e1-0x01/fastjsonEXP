@@ -1,6 +1,6 @@
 # Fastjson  exp 集合
 
-目前项目中的exp基本上都是基于jndi注入
+目前项目中的exp基本上都是基于jndi注入，大部分exp在fastjson 1.2.60后都可用。
 
 ### Fastjson版本控制
 
@@ -16,7 +16,7 @@
 该项目在编写和测试时使用jdk1.8.0_112，该版本对于JNDI注入限制小，如果在高版本运行请自行修改安全管理器配置。
 
 ### fastjson黑名单
-目前fastjson黑名单包名不是明文的，需要碰撞哈希，目前已有收集fastjson黑名单的项目。[移步github项目](https://github.com/LeadroyaL/fastjson-blacklist)
+目前fastjson黑名单包名不是明文的，需要碰撞哈希，收集fastjson黑名单的项目。[移步github项目](https://github.com/LeadroyaL/fastjson-blacklist)
 
 
 ### 声明
