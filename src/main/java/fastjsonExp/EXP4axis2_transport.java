@@ -37,13 +37,7 @@ public class EXP4axis2_transport {
         Method m = a.getDeclaredMethod("getUserTransaction");
         m.setAccessible(true);
         m.invoke(s, null);
-        /*
-        System.out.println(url);
-        String name = url;
-        Hashtable<?,?> hashtable  = new Hashtable<Object, Object>();
-        Context context = new InitialContext(hashtable);
-        Object object = context.lookup(name);
-         */
+
     }
     public  void actual_fun() throws Exception{
         if(!StringUtils.isNull(this.JNDI_URL)){
